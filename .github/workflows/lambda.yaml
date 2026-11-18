@@ -15,7 +15,7 @@ jobs:
   - name: Set Up Python #Sets up python env
     uses: actions/setup-python@v5
     with:
-     python-version: '3.12'
+     python-version: '3.15'
 
   - name: Install Dependencies #Installs any packages
     run: |
